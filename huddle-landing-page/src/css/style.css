@@ -1,5 +1,77 @@
-body{
+body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-color: var(--bg-color);
     height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
 }
+
+.header {
+    padding: 40px 60px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 60px;
+    flex: 1;
+}
+
+.informations-container {
+    padding: 50px 0 0 60px;
+}
+
+.informations-container h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.informations-container p {
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.informations-container a {
+    font-size: 1.3rem;
+    padding: 15px 70px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px black;
+    transition: 0.3s ease;
+}
+
+.informations-container a:hover {
+    background-color: var(--active-state-color);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    padding: 0 60px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+

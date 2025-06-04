@@ -1,0 +1,5 @@
+body{
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: var(--bg-color);
+    height: 100vh;
+}
